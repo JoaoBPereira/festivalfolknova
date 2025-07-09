@@ -184,12 +184,9 @@ a {
 
 
 .bilheteInfo {
-    display: none;
-}
-
-.main {
     display: block;
 }
+
 
 #bilhetes {
     margin-left: 10vw;
@@ -274,6 +271,18 @@ a {
     text-align: left !important;
 }
 
+.infoTextsCentered{
+    font-family: "Gill";
+    text-align: center;
+}
+
+.note{
+    font-family: "Gill";
+    font-weight: bold;
+    font-size: 1.5vh !important;
+    padding: 0;
+}
+
 .alinhamento {
     width: 80vw;
     max-width: 80vw;
@@ -341,6 +350,11 @@ a {
     #alojamento{
         column-count: 1;
     }
+
+    #bilhetes p, #alojamento p, #campismo p, #chegar p {
+        font-size: 2.5vh;
+        padding: 0;
+    }
 }
 
 
@@ -387,6 +401,11 @@ a {
 
     .dayX{
         width: 30vw !important;
+    }
+
+    #bilhetes p, #alojamento p, #campismo p, #chegar p {
+        font-size: 2.5vh;
+        padding: 0;
     }
 }
 
